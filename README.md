@@ -1,3 +1,3 @@
 # Jake's Creative Embedded Systems Blog
 
-## October 3rd 2024, __Fall__ing into the void - Module 1
+## October 3rd 2024, Falling into the void - Module 1
