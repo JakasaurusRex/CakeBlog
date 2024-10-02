@@ -1,2 +1,2 @@
-# CreativeEmbeddedSystemsBlog
-Blog for Creative Embedded Systems!
+# Jake's Creative Embedded Systems Blog
+
