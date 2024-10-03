@@ -1,4 +1,4 @@
-Jake Torres
+**Jake Torres**
 
 # October 3rd 2024, Falling into the Void 🕳️🍂🎵
 
