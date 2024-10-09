@@ -1,5 +1,22 @@
 **Jake Torres**
 
+# October 10th 2024, Animal Jam Project Proposal 🐠🐻🐒
+
+With our project introducing us to ESP's complete, I wanted to try to make a silly and more fun and interactive demo for our next project. The past couple of days I have been thinking about how I wanted to approach that and was in the middle of thinking about it when I was messaging the new Game Development Intiative committee I organized for Esports x Game Dev club. Another student asked to see some of my previous work involving the use of silly 3D models that I make sometimes and I shared them [my itch.io page](https://jakasaurus.itch.io/). Because of this 3D models have been in my mind and I suddenly had the idea of making an interactive 3D model viewer! 
+
+The vision in my head for what this would look like is inspired by (sneepsnorp3d on YouTube)[https://www.youtube.com/@sneepsnorp3d]! I love the cute lowpoly 3D models and I have some existing models I have made that look similar. I would like to have an animal rotating along the z-axis and doing a little dance and allow for the user to customize some features about the model viewer such as the colors of the animal, adding hats to the animals, changing the size, changing background pastel color, and the animal itself with a couple of animal options.
+
+For the user interactivity, I think the button will be used to be able to switch between different interaction modes and the joystick + potentiometer can be used for the actual interaction like scaling using input from the potentiometer and color changing using the inputs from the joystick. 
+
+As for the housing containing my ESP, I can laser cut a housing in the makerspace, sand it down and paint it a pastel color to match the vibes of the app on the computer. 
+
+In order to create this vision I will need to do the following steps.
+
+1. Desgin and Setup my circuit on a breadboard. Setting up the circuit will involve making sure all the connectins are solid and I am able to get user input from all of the devices.
+2. Setup Serial Reading and Writing to allow for interprocess communication between processing, Arduino IDE, and the ESP.
+3. Research how to display 3D models using processing and setup a basic demo using one of my existing 3D models - like my Capybara which already has a bunch of hats I made for it.
+4. Program the model viewer on my computer to completion after I have a working demo setup! Create more 3D Models and try to make it as fun as possible!
+
 # October 3rd 2024, Falling into the Void 🕳️🍂🎵
 
 As we enter fall, our Creative Embedded Sytems class was tasked to create an art display with the theme "**Fall**" using our ESP32 TTGo T-Display devices. I created "**Fall**ing into the Void", a display that evokes feeling of serenity and peace while you float away on your bed listening to music. Here is what my final display looked like!
