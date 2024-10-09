@@ -17,6 +17,8 @@ In order to create this vision I will need to do the following steps.
 3. Research how to display 3D models using processing and setup a basic demo using one of my existing 3D models - like my Capybara which already has a bunch of hats I made for it.
 4. Program the model viewer on my computer to completion after I have a working demo setup! Create more 3D Models and try to make it as fun as possible!
 
+I am calling the project Animal Jam because its going to be a jam of all the animals dancing and having fun and you can join them in their jamming! 
+
 # October 3rd 2024, Falling into the Void 🕳️🍂🎵
 
 As we enter fall, our Creative Embedded Sytems class was tasked to create an art display with the theme "**Fall**" using our ESP32 TTGo T-Display devices. I created "**Fall**ing into the Void", a display that evokes feeling of serenity and peace while you float away on your bed listening to music. Here is what my final display looked like!
