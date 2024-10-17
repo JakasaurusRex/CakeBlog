@@ -13,7 +13,16 @@ I also tackled probably the most technically challenging portion of this project
 
 ![image](https://github.com/user-attachments/assets/9b557641-9bf0-4c9a-9f75-9c0ca4f7342e)
 
-What I actually ended up doing was quite a nice solution. First, I created a second model that was slightly sized up, with inverted normals, (this means that the surfaces of the model has normals pointing in the opposite directions) and a slightly darker color. Then I brought that larger model into processing and did a minor OpenGL override that allowed me to turn on Back Face Culling. This meant that normals that were in the same direction as the camera. Normally, this would hide the back of a model, but since I inverted the normals, it hid the front of the model. Then I displayed the normal model on top of that which results in a nice outline shader. Here are the final results!
+What I actually ended up doing was quite a nice solution. First, I created a second model that was slightly sized up, with inverted normals, (this means that the surfaces of the model has normals pointing in the opposite directions) and a slightly darker color. This is a model with inverted and regular normals.
+
+![image](https://github.com/user-attachments/assets/98a14b15-c226-4183-b946-a3446b8b745f)
+
+Then I brought that larger model into processing and did a minor OpenGL override that allowed me to turn on Back Face Culling. This meant that normals that were in the same direction as the camera. Here is a picture to help explain what backface culling does.
+
+![image](https://github.com/user-attachments/assets/968f2a83-638c-4aeb-9342-875139d3c1e5)
+
+
+Normally, this would hide the back of a model, but since I inverted the normals, it hid the front of the model. Then I displayed the normal model on top of that which results in a nice outline shader. Here are the final results!
 
 ![capyspin](https://github.com/user-attachments/assets/93c220ec-f7ab-4a48-af25-32782039e891)
 
