@@ -18,6 +18,31 @@ I am super happy with how this turned out! I did spend many hours on this but it
 
 As for the housing, I would like to enclose all of my components in a case with just the interactive parts visible on the top. I would also like to cut out a hole for the USB C port of the ESP so that it can be easily connected to a computer. I am planning on 3D printing the enclosure and painting it a pastel blue to match the original concept! I would also like to add little pictures of all the animals I end up including around the box for decoration. I have not finished the design on OnShape yet but I am going to do that next probably! 
 
+Also as a last goodie, here are some silly hats that I have available!
+
+Croc Capy
+
+![image](https://github.com/user-attachments/assets/a599da5a-05e4-4282-b78d-12f6b7b0677f)
+
+Holy Capy
+
+![image](https://github.com/user-attachments/assets/8e74a126-7638-477f-81e1-2f932d5f3bb6)
+
+Ice Cream Capy
+
+![image](https://github.com/user-attachments/assets/60cf3919-bc8d-4228-b3f9-a142aefb63fd)
+
+Propeller Capy
+
+![image](https://github.com/user-attachments/assets/9f0ec164-7764-40a1-9f59-51c29abc3201)
+
+Cough Conscious Capy
+
+![image](https://github.com/user-attachments/assets/c8a024fb-5320-4956-b294-10a0159f6582)
+
+
+
+
 # October 10th 2024, Animal Jam Project Proposal 🐠🐻🐒
 
 With our project introducing us to ESP's complete, I wanted to try to make a silly and more fun and interactive demo for our next project. The past couple of days I have been thinking about how I wanted to approach that and was in the middle of thinking about it when I was messaging the new Game Development Intiative committee I organized for Esports x Game Dev club. Another student asked to see some of my previous work involving the use of silly 3D models that I make sometimes and I shared them [my itch.io page](https://jakasaurus.itch.io/). Because of this 3D models have been in my mind and I suddenly had the idea of making an interactive 3D model viewer! 
