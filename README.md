@@ -17,7 +17,7 @@ What I actually ended up doing was quite a nice solution. First, I created a sec
 
 ![capyspin](https://github.com/user-attachments/assets/93c220ec-f7ab-4a48-af25-32782039e891)
 
-I am super happy with how this turned out! I did spend many hours on this but it was a learning experience for sure! With this done and my serial communication setup from Lab 2, I can start working on moving the model using the joystick! 
+I am super happy with how this turned out! I did spend many hours on this but it was a learning experience for sure! If you would like to see how this stuff works check out my [github repo](https://github.com/JakasaurusRex/AnimalJam)! With this done and my serial communication setup from Lab 2, I can start working on moving the model using the joystick! 
 
 As for the housing, I would like to enclose all of my components in a case with just the interactive parts visible on the top. I would also like to cut out a hole for the USB C port of the ESP so that it can be easily connected to a computer. I am planning on 3D printing the enclosure and painting it a pastel blue to match the original concept! I would also like to add little pictures of all the animals I end up including around the box for decoration. I have not finished the design on OnShape yet but I am going to do that next probably! 
 
