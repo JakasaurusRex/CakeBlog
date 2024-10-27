@@ -1,5 +1,36 @@
 **Jake Torres**
 
+# October 29th 2024, Animal Jam Project Showcase 🐺🐢🦏
+
+On Thursday October 24th, our Creative Embedded Systems class got to showcase the interactive media projects we have been working on for the last couple weeks. We were tasked to create an interactive display using our ESP32s, input devices like a joystick, button and potentiometer, and Processing with an enclosure to make it like an actual device! I had a blast checking out everyones cool demos and trying to get a high score on as many games as I could! The Animal Jam showcase also went great and I was super excited to show everyone what I had been working on. Here is a video showcasing all the features of the demo recorded the night before the showcase! 
+
+https://github.com/user-attachments/assets/1d521944-f9e4-4f81-8811-269576a1856b
+
+## Animal Jam like the video game? ( no D: )
+
+Like I mentioned in my project proposal, my goal was to create a fun interactive 3D model viewer where you could create silly displays using low-poly (low polygon/resolution) animals. The vision in my head for what this was going to look like was inspired by [sneepsnorp3d on YouTube](https://www.youtube.com/@sneepsnorp3d)! I loved the low-poly animals and had made some animal models in the past that I could use for the project. 
+<img width="1483" alt="Screenshot 2024-10-09 at 11 31 20 AM" src="https://github.com/user-attachments/assets/3d8ae603-79cb-4da4-8daf-e35c0262c2a7">
+
+My original plan was to have an animal rotating along the z-axis and doing a little dance and allow for the user to customize some features about the model viewer such as the colors of the animal, adding hats to the animals, changing the size, changing background pastel color, and the animal itself with a couple of animal options.
+
+In the end I was only able to get 1 animal displaying without the dancing, but it still ended up working out awesomely as I got the rest of the features into the app! You are able to switch pastel colors for the background, capybara and a thick outline around the capybara similar to how sneepsnorps cute low poly animals are rendered. Additionally, I was able to get 4 hats, also with outlines, working in the display. 
+
+In order to create this final project I am going to go through all the steps that I outlined in my proposal and discuss how I worked through them. The following are the steps I outlined:
+
+1. Desgin and Setup my circuit on a breadboard. Setting up the circuit will involve making sure all the connectins are solid and I am able to get user input from all of the devices.
+2. Setup Serial Reading and Writing to allow for interprocess communication between processing, Arduino IDE, and the ESP.
+3. Research how to display 3D models using processing and setup a basic demo using one of my existing 3D models - like my Capybara which already has a bunch of hats I made for it.
+4. Program the model viewer on my computer to completion after I have a working demo setup! Create more 3D Models and try to make it as fun as possible!
+
+I will cover them over the next couple of sections!
+
+## Setting Up the Stage
+
+Before starting my work on the app itself. I started my work on getting my ESP32 serial writing using the input devices we were provided. I originally was struggling quite a lot with this, though, I think the issue ended up being that there was some issues with the breadboard I was given. After rewriring multiple times and moving stuff around my breadboard, I eventually did get the serial monitor to display the inputs provided by each of the devices! The circuit I designed was built off of the work that we did in class with just the addition of the potentiometer pretty much and some reshuffling of what pins each device was connected to.
+
+The next thing I did to set the stage for the animals was creating my enclosure. I used OnShape to create my enclosure due to the ease of use like we talked about in class. It was really easy to start learing how to use it, especially because I have used other CAD softwares before. I ended up making some pretty rough estimates for how large I wanted the enclosure to be and thankfully it worked out on my first print where everything snugly fit into the enclosure (with a little bit of smushing, a lotta tape and some foam). 
+
+
 # October 17th 2024, Animal Jam Project Update 🐸🐳🦈
 
 Over the last week I have been hard at work at making my silly project Animal Jam. I had set 4 main tasks to accomplish over the course of the project: design and setup the circuit, setup communication between the breadboard, esp and processing, find out how to create my display in processing, and program the model viewer for customizability. Another goal that I forgot to set for myself is to spend some time in the makerspace designing my housing. 
@@ -82,14 +113,14 @@ As we enter fall, our Creative Embedded Sytems class was tasked to create an art
 ![372914465-cff865c5-66ac-42ee-b49b-f6057763ecab](https://github.com/user-attachments/assets/4b65cb79-f968-4f3b-825e-c67a30c94945)
 
 
-# The Fall
+## The Fall
 When I first heard the theme, I immediately thought of scenes from the Legend of Zelda: Tears of the Kingdom where Link, the protagonist, dives into the unknown from islands high above the lands of Hyrule. While you are falling you are able to truly witness the vastness of the kingdom of Hyrule and the regions to explore. During these times playing the game I feel excitement about all the things to do and see, but also I feel peace. The wind blowing against your face and slowly floating in the air above an unexplored world.
 
 ![giphy](https://github.com/user-attachments/assets/b0fa5ed1-78ab-445a-897c-20f44ed00feb)
 
 Originally, I wanted to explore this idea, but I was having difficulty figuring out how to spin it in a unique way that felt substantial. Becasue of this, I decided to reroute my idea and try to explore the idea of peace while falling in a different lens. I was laying on my bed listening to music trying to brainstorm ideas when the idea of what I was currently doing came to me. I thought of the peace felt from getting home from a long day or work or school and just sitting on my bed and floating away and I wanted to lean into that. 
 
-# Jumping In
+## Jumping In
 I knew that I wanted to use pixel art in someway so I started my work by designing the character that would be floating in the void. I wanted the character to be wearing headphones and listening to music. I chose a color pallete in Lospec, a pixel art community website, that matched the vibes of this feeling in my head. I chose a palette with lots of warmer blues and some yellows and oranges so that I could make things that standout against a black background, which was my idea at the time for where the character would be floating. 
 
 I then started my work in Aseprite, my preferred pixel art editor, and came up with a couple of designs but these are the finals ones that I came up with for the character that would be floating and the music notes that would accompany them. 
@@ -111,7 +142,7 @@ Here is my final design on my display!
 
 If you would like to see the code check out my [Github Repo](https://github.com/JakasaurusRex/FallingInTheVoidESP32)!
 
-# The Void
+## The Void
 The final steps of the project was creating the envelope enclosure for ESP. Our envelopes were originally white and I thought it contrasted too much with my display and ideas so I painted it black and added some music notes to it to continue the ideas of the display onto its housing. This is what my housing looked like after I painted it!
 ![372923229-43b45b57-20ef-4173-a7bc-2eb4713d1a58](https://github.com/user-attachments/assets/6ff2de89-7038-4e77-8ff9-eb7a2ec2f4a1)
 
@@ -120,7 +151,7 @@ After painting my envelope, I connected the battery to my ESP and taped the batt
 ![timelapse](https://github.com/user-attachments/assets/8d6f5f21-5476-442f-869e-103e9541d32b)
 
 
-# The Future
+## The Future
 This project was a awesome and fun way to start using our ESP32s and I had a lot of fun coming up with ideas for what to display. I am also glad I got to do some pixel art in Aseprite! In the future, I would love to work with a larger screen size to do something similar. The T-Display is awesome for its pixel density but working with a larger screen would definitely have given me more creative flexibility. I also think it would be interesting to research how to display my images using different methods or libraries on the screen.
 
 
