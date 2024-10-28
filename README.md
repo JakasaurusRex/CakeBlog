@@ -33,7 +33,7 @@ This project is so awesome and exciting. Creating interactive handmade stories i
 ![image](https://github.com/user-attachments/assets/5ce07666-e00a-4a59-91b7-44ed27c50f61)
 
 
-I think this technology has so much use in creative applications! I think the use of a book as a medium limits the space and interactive capabilities of the technology, so my first ideas for how this could be used is with room decore since its a lot larger scale. A lot of room decore is kind of static, such as posters and displays hung on the wall. Using this technology and hand crafting decorations for a childs room would be a really cute application of this. For example, maybe a nightlight in the room can be built into a poster that requires someone to move one crochetted element from one place to another and this could possibly provide a learning opportunity if the poster has a story of some sort on it. 
+I think this technology has so much use in creative applications! I think the use of a book as a medium limits the space and interactive capabilities of the technology (I think the book was a great exploration and usecase though!!), so my first ideas for how this could be used is with room decore since its a lot larger scale. A lot of room decore is kind of static, such as posters and displays hung on the wall. Using this technology and hand crafting decorations for a childs room would be a really cute application of this. For example, maybe a nightlight in the room can be built into a poster that requires someone to move one crochetted element from one place to another and this could possibly provide a learning opportunity if the poster has a story of some sort on it. 
 
 # October 29th 2024, Animal Jam Project Showcase 🐺🐢🦏
 
