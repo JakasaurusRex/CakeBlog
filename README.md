@@ -1,5 +1,9 @@
 **Jake Torres**
 
+- [Crafting Stories - Related Works Overview](#october-29th-2024-crafting-stories---related-works-overview-)
+- [Animal Jam](#october-29th-2024-animal-jam-project-showcase-)
+- [Falling into the Void](#october-3rd-2024-falling-into-the-void-%EF%B8%8F)
+
 # October 29th 2024, Crafting Stories - Related Works Overview 📚🔨⚡
 
 Today I had the chace to explore the world of creative works that utilize embedded systems to acheive their artistic visions, specifically with a story book in Crafted Stories. Crafted Stories is a project by a Slovenian researcher at the University of Art and Design in Linz, Austria, Irene Posch. Irene project seeks to explore books as a medium for using "ubiquitous, smart, electronic, and computational technologies" (quoted from [her paper](https://dl.acm.org/doi/pdf/10.1145/3430524.3446076)). The goal of the Crafting Stories project was to create an interactive story telling experience where readers will be able to experience a crafted story through different sense such as touch, hearing and sight. 
