@@ -104,7 +104,7 @@ With all my cables soldered and everything still working as intended, I smushed 
 I used some screws to close the enclosure that fit perfectly in length. I didn't end up using the heatset inserts because the screws fit perfectly into the plastic already and it was easy to get it screwed in. This is a video showcasing what the final enclosure looked like and a picture of what the components looked like inside.
 
 <video width="640" height="480" controls loop=" " muted = " " autoplay="">
-  <source src="https://github.com/user-attachments/assets/aa24dc87-b02d-4697-90d2-d5dc69ed5811">
+  <source src="https://github.com/user-attachments/assets/16f884c1-a71e-414c-9d7c-ab34a122121c">
 </video>
 
 ![image](https://github.com/user-attachments/assets/f0de667c-1e11-4075-8d9d-42b87b3a7ee8)
