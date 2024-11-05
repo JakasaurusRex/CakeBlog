@@ -43,7 +43,7 @@ I think this technology has so much use in creative applications! I think the us
 
 On Thursday October 24th, our Creative Embedded Systems class got to showcase the interactive media projects we have been working on for the last couple weeks. We were tasked to create an interactive display using our ESP32s, input devices like a joystick, button and potentiometer, and Processing with an enclosure to make it like an actual device! I had a blast checking out everyones cool demos and trying to get a high score on as many games as I could! The Animal Jam showcase also went great and I was super excited to show everyone what I had been working on. Here is a video showcasing all the features of the demo recorded the night before the showcase! 
 
-<video width="320" height="240" controls loop=" " muted = " " autoplay="">
+<video width="640" height="480" controls loop=" " muted = " " autoplay="">
   <source src="https://github.com/user-attachments/assets/1d521944-f9e4-4f81-8811-269576a1856b">
 </video>
 
@@ -64,7 +64,9 @@ My original plan was to have an animal rotating along the z-axis and doing a lit
 
 In the end I was only able to get 1 animal displaying, a capybara, without the dancing, but it still ended up working out awesomely as I got the rest of the features into the app! You are able to switch pastel colors for the background, capybara and a thick outline around the capybara similar to how sneepsnorps cute low poly animals are rendered. Additionally, I was able to get 4 hats, also with outlines, working in the display. Heres what the final display looked like!
 
-https://github.com/user-attachments/assets/ed123b97-e29a-4352-bdad-b31400c29764
+<video width="640" height="480" controls loop=" " muted = " " autoplay="">
+  <source src="https://github.com/user-attachments/assets/ed123b97-e29a-4352-bdad-b31400c29764">
+</video>
 
 ## Setting Up the Stage
 
@@ -101,7 +103,9 @@ With all my cables soldered and everything still working as intended, I smushed 
 
 I used some screws to close the enclosure that fit perfectly in length. I didn't end up using the heatset inserts because the screws fit perfectly into the plastic already and it was easy to get it screwed in. This is a video showcasing what the final enclosure looked like and a picture of what the components looked like inside.
 
-https://github.com/user-attachments/assets/aa24dc87-b02d-4697-90d2-d5dc69ed5811
+<video width="640" height="480" controls loop=" " muted = " " autoplay="">
+  <source src="https://github.com/user-attachments/assets/aa24dc87-b02d-4697-90d2-d5dc69ed5811">
+</video>
 
 ![image](https://github.com/user-attachments/assets/f0de667c-1e11-4075-8d9d-42b87b3a7ee8)
 
