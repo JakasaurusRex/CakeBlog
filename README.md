@@ -48,6 +48,7 @@ https://github.com/user-attachments/assets/1d521944-f9e4-4f81-8811-269576a1856b
 ## Animal Jam like the video game? ( no D: )
 
 Like I mentioned in my project proposal, my goal was to create a fun interactive 3D model viewer where you could create silly displays using low-poly (low polygon/resolution) animals. The vision in my head for what this was going to look like was inspired by [sneepsnorp3d on YouTube](https://www.youtube.com/@sneepsnorp3d)! I love low-poly animals and had made some animal models in the past that I could use for the project. 
+
 <img width="1483" alt="Screenshot 2024-10-09 at 11 31 20 AM" src="https://github.com/user-attachments/assets/3d8ae603-79cb-4da4-8daf-e35c0262c2a7">
 
 These are some of SneepSnorps most recent twitter posts
