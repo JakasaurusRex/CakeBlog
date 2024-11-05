@@ -43,7 +43,10 @@ I think this technology has so much use in creative applications! I think the us
 
 On Thursday October 24th, our Creative Embedded Systems class got to showcase the interactive media projects we have been working on for the last couple weeks. We were tasked to create an interactive display using our ESP32s, input devices like a joystick, button and potentiometer, and Processing with an enclosure to make it like an actual device! I had a blast checking out everyones cool demos and trying to get a high score on as many games as I could! The Animal Jam showcase also went great and I was super excited to show everyone what I had been working on. Here is a video showcasing all the features of the demo recorded the night before the showcase! 
 
-https://github.com/user-attachments/assets/1d521944-f9e4-4f81-8811-269576a1856b
+<video width="320" height="240" controls loop=" " muted = " " autoplay="">
+  <source src="https://github.com/user-attachments/assets/1d521944-f9e4-4f81-8811-269576a1856b">
+</video>
+
 
 ## Animal Jam like the video game? ( no D: )
 
