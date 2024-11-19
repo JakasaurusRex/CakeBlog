@@ -1,8 +1,49 @@
 **Jake Torres**
-
+- [Emergency Situations with a Spaceteam](#november-19th-2024-emergency-situations-with-a-spaceteam-)
 - [Crafting Stories - Related Works Overview](#october-29th-2024-crafting-stories---related-works-overview-)
 - [Animal Jam](#october-29th-2024-animal-jam-project-showcase-)
 - [Falling into the Void](#october-3rd-2024-falling-into-the-void-%EF%B8%8F)
+
+# November 19th 2024, Emergency Situations with a Spaceteam 👾
+This week I worked with Mila, Mori and Sushi to modify the Spaceteam game given to our creative embedded sytems class. The original game that runs on our ESP32's lets you and others using ESPNow complete tasks to progress a progress bar. You have a certain amount of time for others to complete the task that is given to you. Every person playing has 2 tasks they can complete for another person! Our new features include:
+- Change in the layout of the screen (basically added boxes, made the text smaller, added B1 and B2 so the user knows which buttons are which, added a background photo, changed the color of some features)
+- Add a multiplayer command that requires all players to press both buttons at the same time. This is indicated by a task being received in all caps! The new tasks follow the sillyness of the original game!
+- Change the progress bar color to green;
+- Fixed the timer and added a number timer;
+
+Heres all of our new features in action!
+
+![ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/2fb8312f-4c34-42a8-b380-7c3d8be5a621)
+
+[Check out this youtube video to hear the silly spedup noise and view the video in higher quality!](https://www.youtube.com/shorts/_mIWQXVgbx4)
+
+## Fixing up the Skeld
+
+After playing the original game, our first thoughts were that the UI was cluttered, confusing and broken in some places. For example the timer bar was not working, so that was something we set out to fix. Additionally, we thought the green was harsh against the background and had originally thought it would be cool to create a way to have every player have unique colored text based on their mac address, we did not end up going through with this but I think it would be a fun addition! We ended up changing the color of the text to white to make it easier to read as well as evoking more of the space theme the original iOS game created. We also added some indicators to the bottom of the screen of which button is which to make it easier for new users to figure out how to play the game. 
+
+We really wanted to recreate the space themeing that exists in the original game that got lost in the transition from iOS to EPS, probably due to the smaller screen allowing for less information to be communicate to a player. To bring back some of that feeling, we added a space background to the game to evoke the feeling of traveling through space. Some issues we had encountered along the way while implementing this was the fact the screen doesn't referesh in the main game loop, so we could only draw this during the setup of the game or else it would cover UI elements and we also wanted the text and UI to still be visible. To make sure everything was clear, we added borders to the text boxes and highlighting on the text to help it stand out from the background. With all of these visual changes, the game feels way more aligned with the space theming!
+
+Another feature that we wanted to add was an improved timer. We felt the visual bar of the timer was not enough information to convey to the players so we worked to add some timer text to the corner that counted down while your task's timer was ticking. This combined with a fixed timer bar makes it more clear how long you have until your task is about to expire!
+
+Here is a sneak of what the new UI looks like: 
+
+<img width="364" alt="Screenshot 2024-11-18 at 9 42 46 PM" src="https://github.com/user-attachments/assets/cf58eb2c-b232-4286-a78e-1340c47e82d9">
+
+## Emergency Meeting!
+
+The last feature that I worked on for the team was a multiplayer task. The multiplayer task is a task that appears 1/10 times and requires all other players to press both buttons at the same time in order to be completed. This was a pretty technically challenging feature to implement. The first step to making this new feature was adding a new set of tasks. To indicate that a task given to you was a multiplayer task, I made the new tasks in all capital letters, to indicate the urgency of the task and make it feel like it was an emergency. I also added some Among Us references to the tasks to remind players of another space themed game with emergency situations! I created the same amount of possible tasks as the original game had so that I could use the same code to generate a random multiplayer task.
+
+<img width="1201" alt="Screenshot 2024-11-18 at 9 25 18 PM" src="https://github.com/user-attachments/assets/457656db-c121-4bd2-ad1c-86db614766a6">
+
+After doing this, I modified the receive callback function to support the functionality of 2 new commands, M for multi followed by the multiplayer command and C for compelte. When a host received and took a task using the M command, it would start a timer, like normal tasks did and also reset variables used for multiplayer commands. The M command is sent by another ESP when they are sending a command. There is a 1/10 chance that the command sent will be a multiplayer task instead of one of the 2 tasks present on the display. If the command sent will be a multiplayer task, the task is generated and an M command is sent containing the new task. 
+
+After a host has started a multiplayer task, it will receive C commands from other players. C commands are sent when a player has pressed 2 of their buttons at the same time. After the C command is sent to the host of the multiplayer task, the host then adds the players mac address to a list. Once the host has received a repsonse from ever mac address it has heard from while playing the game, it will complete the multiplayer task.
+
+To identify and store different mac addresses I used an array of 100 uint8_t. This means there can only be up to 100 players playing with this feature at a time, but I didn't think that was going to be a case we were going to have to handle. The uint8_t that I am storing is the 4th uint8_t of the mac address. I found online that the last 3 ints of the mac address are the device specific parts of the address while the first 3 are manufactorer specific. In order to try make sure that no players would have the same key for a mac address I used a int from the device specific part of the mac address. I beleive there is a very small chance that the players will have the same key as there are 2^8 possible values. If this does turn out to be an issue, a solution could be to add all of the uints of the mac address and use that as the key, which would have an even smaller chance of an overlap occuring. In order to read more about my implementation, [check out our github repo](https://github.com/JakasaurusRex/arduinospaceteam)! 
+
+## Crewmate Victory
+
+In the end, this feature ended up working and being super fun to play with. It requires the game to pause and every to focus on sending over the 2 button input! All of our features combined act as a nice overhaul of the original ESP32 spaceteam port and greatly improve the players experience, which is what we were hoping to accomplish! I had fun working with everyone as a *Spaceteam* 😎!!
 
 # October 29th 2024, Crafting Stories - Related Works Overview 📚🔨⚡
 
