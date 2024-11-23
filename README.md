@@ -4,6 +4,35 @@
 - [Animal Jam](#october-29th-2024-animal-jam-project-showcase-)
 - [Falling into the Void](#october-3rd-2024-falling-into-the-void-%EF%B8%8F)
 
+# November 25hth 2024, Road Trippin' - Final Project Proposal 🚘🗺️🏕️
+
+As we approach the end of the semester, our class has been tasked to start thinking about the final projects we want to do. Originally, I wanted to make a kindle like eReader using a eInk display where I could use it to read Manga. After thinking more about this idea, it seemed like it might be hard to implement with the time we have remaining and also hard to handle a large eInk display with the small amount of memory available on the ESP32. Because of this I have been reflecting over the semester to think of another potential project I am interested in. I eventually thought back to my related work overview about Crafting Stories by Irene Posch. I mentioned as a future work related to the project that the technology could be used to create an interactive poster. A previous project I wanted to make was a map of the country laser cutted and could show road trips I have been on around the country with my friends and I decided that I could combine my ideas and create an interactive map that could display road trips I have been on and have lights the light up the states I have been to. 
+
+My idea of how the end product would look like would be a map with holes in every state that you can attach conductive pins or magnets to to indicate you have been to that state. After doing that, the state would light up with an array of LEDs below the map. The states would have some cutout around them to glow or have some way of lighting up. 
+
+My inspiration for the lights comes from [this video by Moonshotkidz](https://www.youtube.com/watch?v=3m_HP4Xm4Z8). In the video, the creator uses conductive tape, magnets and leds to make an interactive poster. I would like to use a similar method of interaction with my map. I could use the ESP32 as the source of energy instead of the battery used in the video. I was also inpsired by the work by Irene Posch like I previously mentioned. 
+<img width="777" alt="Screenshot 2024-11-22 at 9 49 28 PM" src="https://github.com/user-attachments/assets/84ec04cb-6134-44c5-a81a-d613c89e44f1">
+
+In the end, the map might look like this but with magnets slotting into holes on the map instead of pins. 
+![image](https://github.com/user-attachments/assets/8925dd5b-0d34-4bb7-a06f-468c95051c09)
+
+I think I can involve some extra interaction and coding by adding a button that lets you change how the lights glow and potentially feature a mode where the lights would light up in the order of attachment to tell a story of traveling around the country. I would enclose the design in multiple layers of wood with a hollow behind to leave room for the components, similar to painting frames. 
+
+I think I would need the following parts to create this project:
+- Plywood to laser cut (available in the Makerspace or at stationary stores on broadway)
+- Paint (also available in the makerspace)
+- [Conductive tape to set up the circuits more easily than using cables](https://www.amazon.com/Conductive-Adhesive-Shielding-Connections-Grounding/dp/B0CND2DFTN?source=ps-sl-shoppingads-lpcontext&smid=A3P43Z824VGWMI&th=1)
+- Button (available in Design lab)
+- LED lights (available in Design Lab - but maybe I would look into other types of LEDs)
+- [Reed Switches used to connect circuit](https://www.aliexpress.us/item/3256806005788370.html?gps-id=platformRecommendH5ForSpider&pvid=a15ac806-c360-475e-a6bb-8b27ded3af59&_t=gps-id:platformRecommendH5ForSpider,pvid:a15ac806-c360-475e-a6bb-8b27ded3af59,tpp_buckets:668%232846%238114%231999&pdp_npi=4@dis!EUR!0.23!0.23!!!1.80!1.80!@2101efac17219248121376690ecc35!12000036244460111!rec!IT!!AB&gatewayAdapt=glo2usa4itemAdapt)
+- [Neodymium Magnets for connecting pins to the board](https://www.harborfreight.com/10-piece-rare-earth-magnets-67488.html)
+
+Here is the timeline I would like to complete the work by:
+- December 3rd - Laser cut and painted map
+- December 10th - Hooked up circuitry with LEDs with some example pins setup
+- December 12th - Button to cycle between lighting modes + final documentation
+
+
 # November 19th 2024, Emergency Situations with a Spaceteam 👾
 This week I worked with Mila, Mori and Sushi to modify the Spaceteam game given to our creative embedded sytems class. In the original game given to us, players have to tell others tasks that appear on their screen for the other players to complete. Every player has 2 tasks that another player might need to complete. They can complete the task by pushing the respective button! Our new features include:
 - Change in the layout of the screen (basically added boxes, made the text smaller, added B1 and B2 so the user knows which buttons are which, added a background photo, changed the color of some features)
