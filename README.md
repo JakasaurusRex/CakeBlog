@@ -58,6 +58,11 @@ With this done, I started working on the pins that I could connect to the map. T
 
 My code can be found in the github repo linked earlier as well! My code to allow for the capacitive touch to light up the LEDs is actually quite simple. I just check if the values of the touch pins are below a certain threshold value and if they are I light up the LED corresponding to that touch pin. I originally noticed the touch pins were very sensitive so I had to do some testing to find a good threshold value and I settled on 55! 
 
+Heres what my setup looked like while I started getting ready to put it all together!
+
+<img width="425" alt="Screenshot 2024-12-12 at 2 16 11 PM" src="https://github.com/user-attachments/assets/696a0119-e4c8-408e-ac99-a72fa19e16a6" />
+
+
 ## Approaching the final stop!
 
 ## Reflecting on the drive
