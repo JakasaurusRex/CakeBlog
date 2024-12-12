@@ -8,6 +8,16 @@
 # December 11th 2024, Road Trippin' 🚘🗺️🏕️
 The last two weeks I have been crafting my final project for Creative Embedded Systems! Originally, I wanted to create a Manga/EReading device using an e-ink display with capacitive touch input. After thinking about this, this was way out of scope of the project for this class, but a cool idea. My next idea was to create a interactive poster like I had mentioned in my related works section! I was inspired by Irene Posch's interactive book, and I wanted to make a accessory for my room that could also be interacted with and light up. This led me to come up with the idea for Road Trippin'!
 
+Here is some videos of how it came out in the end!
+
+https://github.com/user-attachments/assets/3114050b-bd0d-4b95-a6f5-8b75c1d5440b
+
+https://github.com/user-attachments/assets/3c49ca83-3195-4fd0-9835-08253edf2750
+
+https://github.com/user-attachments/assets/3d2d69f5-47d7-4537-8860-c269afb9a5b5
+
+https://github.com/user-attachments/assets/2d4a3518-fba8-4c80-a636-13e1aa54d181
+
 ## Charting the trip 🗺️
 Over the last couple of years, my friend Dylan and I have been going on road trips around the country to explore and hang out with each other, since we don't get to see each other much since we graduated high school. Our first Road Trip took us from Miami, Florida -> Nashville, Tennessee -> Chicago, Illinois -> Denver, Colorado (where we went to high school together) -> Yellowstone, Wyoming -> Seattle, Washington (where I was interning at Microsoft for the summer)! This road trip was a blast and we got to camp a couple times during it as well. We decided to do another Road Trip this year up the east coast states from Miami, Florida -> Charlotte, North Carolina -> New River Gorge, West Virginia (one of the most beauitful places I have ever been) -> Washington D.C. -> Phillidelphia, Pennsylvania -> New York City -> Boston, Massachusettes. This trip was also a blast and I wanted to commemerate these times and showcase them on my wall! Here's some pictures from the road trips for those interested!
 
@@ -56,18 +66,25 @@ https://github.com/user-attachments/assets/08620575-165a-4ce0-ae97-ec82dad61286
 
 With this done, I started working on the pins that I could connect to the map. The holes I had cut out were much smaller than I had originally wanted because the map was so small to fit in the scope of the project. Because of this it was hard to find pins that would fit the size of the holes. I tried laser cutting little pegs that I could stick safety pins into to plug into the holes but they ended up being really fragile and then when placing conductive tape on the edge, they would be hard to fit in the holes again. To fix this I ended up just wrapping the conductive tape around the safety pins. I was able to read minor changes in the capacitive sensors values with the conductive taped pins which was perfect for the enclosure! 
 
-My code can be found in the github repo linked earlier as well! My code to allow for the capacitive touch to light up the LEDs is actually quite simple. I just check if the values of the touch pins are below a certain threshold value and if they are I light up the LED corresponding to that touch pin. I originally noticed the touch pins were very sensitive so I had to do some testing to find a good threshold value and I settled on 55! 
+My code can be found in the github repo linked earlier as well! My code to allow for the capacitive touch to light up the LEDs is actually quite simple. At first, I just checked if the values of the touch pins are below a certain threshold value and if they are I light up the LED corresponding to that touch pin. I originally noticed the touch pins were very sensitive so I had to do some testing to find a good threshold value and I settled on 50! 
 
 Heres what my setup looked like while I started getting ready to put it all together!
 
 <img width="425" alt="Screenshot 2024-12-12 at 2 16 11 PM" src="https://github.com/user-attachments/assets/696a0119-e4c8-408e-ac99-a72fa19e16a6" />
 
-
 ## Approaching the final stop!
+
+To finalize the poster, I tried using a lot of tape to try to get everything neatly compact in the back. I ended up having a lot of difficulty with the copper conductive tape though while setting this up. It was flimsy and sometimes just wouldn't activate which was pretty frustrating. Additionally, how I had originally approached the code was just simply checking if a user had completed the circuit with the touch pins by touching the circuit with something conductive. However, I learned while finishing the assembly that the circuit would only complete when something electrical touched the circuit, such as human skin (since our body produce electricity). In order to get around this I re-approached my coding solution. Instead of just simply checking when the circuit was complete and lighting the light then, I would turn the light on when someone touched it and turn it off when you touched it again. I added some WaitTime between these checks so that if someone took a while to release there hand from the conductive pins it would be ok. Now to ignite the lights, you need to touch the tape with a conductive pin. When the connection is made, the light will turn on. Then when you grab the pin to remove it, the light would turn off. This behavior produced the video shown below.
+
+https://github.com/user-attachments/assets/207e19c5-e644-49a8-a398-9fb03c37526b
+
+In the end, I was not able to get everything hooked up. It took me multiple hours to just get 1 state working and set up and there was not enough time to finish the rest of the states and keep everything nice and tidy in the back. There is a proof of concept here though, I was able to successfully light up a state with a signal gathered from touching the tape with a conductive pin! Additionally, the light from the LED is visible from the front of the map, especially in dark rooms where its super bright! 
+
+The change to the code makes a big difference and its a lot easier to turn on and off the lights now! 
 
 ## Reflecting on the drive
 
-Overall I had a lot of fun working on this project! It was really hard to get everything done with multiple other final projects. I think some lessons I learned is having teammates when working on projects that involve hardware is super useful. It was really difficult to test if my circuits were working while I was alone, I had to touch my pins while also holding up the multimeter to different ends of the circuits (this definitely tested the flexability of my hands). Additionally, having another person to lean on for this type of work would have been really useful whenever I got stuck. I also wish I had more time to work on this project. I really wanted to create something I had been super excited about and having to keep cutting down the vision sadly. I think I should have originally chosen a project with a smaller scope, but getting to work on a passion project did make it fun while I was working on the project.
+Overall I had a lot of fun working on this project! It was really hard to get everything done with multiple other final projects all due within this week. I think some lessons I learned is having teammates when working on projects that involve hardware is super useful. It was really difficult to test if my circuits were working while I was alone, I had to touch my pins while also holding up the multimeter to different ends of the circuits (this definitely tested the flexability of my hands). Additionally, having another person to lean on for this type of work would have been really useful whenever I got stuck. I also wish I had more time to work on this project. I really wanted to create something I had been super excited about and having to keep cutting down the vision sadly. I think I should have originally chosen a project with a smaller scope, but getting to work on a passion project did make it fun while I was working on the project.
 
 I would love to keep working on the project in the future and make it something super awesome! Along the way I became a much better solderer, circuit designer and maker, and wood worker! The skills I gathered from the project, even if incomplete, will be really useful for my future as a creative, tinkerer, and designer! 
 
