@@ -10,8 +10,6 @@ The last two weeks I have been crafting my final project for Creative Embedded S
 
 Here is some videos of how it came out in the end!
 
-<video src='CakeBlog/assets/assets/3114050b-bd0d-4b95-a6f5-8b75c1d5440b' />
-
 https://github.com/user-attachments/assets/3114050b-bd0d-4b95-a6f5-8b75c1d5440b
 
 https://github.com/user-attachments/assets/3c49ca83-3195-4fd0-9835-08253edf2750
