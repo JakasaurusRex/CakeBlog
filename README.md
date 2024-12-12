@@ -4,6 +4,11 @@
 - [Animal Jam](#october-29th-2024-animal-jam-project-showcase-)
 - [Falling into the Void](#october-3rd-2024-falling-into-the-void-%EF%B8%8F)
 
+# December 11th 2024, Road Trippin' 🚘🗺️🏕️
+
+
+
+
 # November 25th 2024, Road Trippin' - Final Project Proposal 🚘🗺️🏕️
 
 As we approach the end of the semester, our class has been tasked to start thinking about the final projects we want to do. Originally, I wanted to make a kindle like eReader using a eInk display I could use it to read Manga. After thinking more about this idea, it seemed like it might be hard to implement with the time we have remaining and also hard to handle a large eInk display with the small amount of memory available on the ESP32. Because of this I have been reflecting over the time we spent in class this semester to think of another potential project I am interested in. I eventually thought back to my related work overview about Crafting Stories by Irene Posch where I mentioned a future work could be to create an interactive poster with similar technology. A previous project I have been wanting to make was a wooden laser cut map of the country to chart my travels and road trips I have went on with my friends. Over the last 3 years I have went on country spanning road trips stopping in national parks and cities. I decided that I could combine my ideas and create an interactive map that could display road trips I have been on and have lights the light up the states I have been to. 
