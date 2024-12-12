@@ -34,8 +34,37 @@ With that in mind, I hopped into Adobe Illustrator and I started working on the 
 
 <img width="435" alt="Screenshot 2024-12-12 at 12 54 18 PM" src="https://github.com/user-attachments/assets/d3ea4d2f-b3cf-491d-9a21-6018fce353f8" />
 
-If you are interested in how I turned this into the map check out my [Github Repo](https://github.com/JakasaurusRex/RoadTrippin) where I got into more detail about how I went from the sketch to the final map that I used!
+If you are interested in how I turned this into the map check out my [Github Repo](https://github.com/JakasaurusRex/RoadTrippin) where I got into more detail about how I went from the sketch to the final map that I used! This is how the final map turned out!
 
+<img width="411" alt="Screenshot 2024-12-12 at 1 25 41 PM" src="https://github.com/user-attachments/assets/ac567b86-dff7-442e-a5ff-6a521aab55a5" />
+<img width="236" alt="Screenshot 2024-12-12 at 1 25 30 PM" src="https://github.com/user-attachments/assets/530df44d-b1dc-4ec2-8f97-b594cf74b7e5" />
+<img width="183" alt="Screenshot 2024-12-12 at 1 25 35 PM" src="https://github.com/user-attachments/assets/c856e063-2e08-4221-91b4-2f96c4d309ff" />
+
+## Filling up the tank ⛽
+
+Next I turned my eyes to designing and setting up the circuit I would add to my laser cut map! I built off the work we had done in class and created 2 designs for circuits in Tinkercad and Fritzing. Both do not include the touch capacitance parts of the design as I could not figure out how to set that up in the apps. Here is one of the designs I came up with that would allow for the LED circuits to be activated, the other design can be found on my github repo!  
+
+<img width="832" alt="Screenshot 2024-12-12 at 1 32 46 PM" src="https://github.com/user-attachments/assets/20de241f-fb0e-4fc7-bcba-1ab0fc132d22" />
+
+While setting up the circuit I encountered many problems. First I did not think about the amount of pins available on the ESP32. The ESP32 has 7 touch capacitive sensors so I had to limit the amount of states that would glow to 7. Coincidentally, there was exactly 7 additional pins that I could use for my LED circuits! Another problem I encountered while setting up the circuit was trying to find a way to keep everything low profile, while also keeping everything connected. I decided to use a pin board and plug my ESP32 into that and solder all the cables to the pin board! This gave me some flexibility in how the pins were soldered while also staying lower profile than a breadboard! This is what my pin board looked like after I had setup: 
+
+<img width="446" alt="Screenshot 2024-12-12 at 1 39 24 PM" src="https://github.com/user-attachments/assets/9147d21e-0324-430e-8417-169f5ead9b28" />
+
+It was a little bit of a mess at first but I later labeled all the cables and taped the related cables together to keep it organized. After soldering 14 wires, 7 for touch capacitance and 7 for the LED cicruits I tested everything out! For some reason 2 of the pins, 37 and 38, were not working. I decided I would revist this later and try to get as much of the project working as possible done first! Heres what the working touch capacitive circuits look like!
+
+https://github.com/user-attachments/assets/08620575-165a-4ce0-ae97-ec82dad61286
+
+With this done, I started working on the pins that I could connect to the map. The holes I had cut out were much smaller than I had originally wanted because the map was so small to fit in the scope of the project. Because of this it was hard to find pins that would fit the size of the holes. I tried laser cutting little pegs that I could stick safety pins into to plug into the holes but they ended up being really fragile and then when placing conductive tape on the edge, they would be hard to fit in the holes again. To fix this I ended up just wrapping the conductive tape around the safety pins. I was able to read minor changes in the capacitive sensors values with the conductive taped pins which was perfect for the enclosure! 
+
+My code can be found in the github repo linked earlier as well! My code to allow for the capacitive touch to light up the LEDs is actually quite simple. I just check if the values of the touch pins are below a certain threshold value and if they are I light up the LED corresponding to that touch pin. I originally noticed the touch pins were very sensitive so I had to do some testing to find a good threshold value and I settled on 55! 
+
+## Approaching the final stop!
+
+## Reflecting on the drive
+
+Overall I had a lot of fun working on this project! It was really hard to get everything done with multiple other final projects. I think some lessons I learned is having teammates when working on projects that involve hardware is super useful. It was really difficult to test if my circuits were working while I was alone, I had to touch my pins while also holding up the multimeter to different ends of the circuits (this definitely tested the flexability of my hands). Additionally, having another person to lean on for this type of work would have been really useful whenever I got stuck. I also wish I had more time to work on this project. I really wanted to create something I had been super excited about and having to keep cutting down the vision sadly. I think I should have originally chosen a project with a smaller scope, but getting to work on a passion project did make it fun while I was working on the project.
+
+I would love to keep working on the project in the future and make it something super awesome! Along the way I became a much better solderer, circuit designer and maker, and wood worker! The skills I gathered from the project, even if incomplete, will be really useful for my future as a creative, tinkerer, and designer! 
 
 
 # November 25th 2024, Road Trippin' - Final Project Proposal 🚘🗺️🏕️
