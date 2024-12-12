@@ -24,7 +24,18 @@ Originally, my plan was to create a map of the country and be able to place pegs
 
 With these pieces of feedback the vision of my project was created! I would laser cut out states on a map of the east coast states and light them up when a user places a conductive pin into a hole on the map, this would then touch a capacitive touch sensor and light up the state.
 
-## Starting the Engine 🚙
+## Starting the Car 🚙
+
+My first step in completing the project was to design the map that I would laser cut and display! For the design of the map I was inspired by wooden maps with an underglow or this map that I found on google.
+
+![image](https://github.com/user-attachments/assets/8925dd5b-0d34-4bb7-a06f-468c95051c09)
+
+With that in mind, I hopped into Adobe Illustrator and I started working on the map to be cut! I found a map online that I using image tracing on to turn it into a vector. Then I cleaned it up and made sure all the shapes were closed and cuttable. I seperated out the states so that each one could be cut out individually. Here is the resulting sketch that I created after a couple hours of cleaning up!
+
+<img width="435" alt="Screenshot 2024-12-12 at 12 54 18 PM" src="https://github.com/user-attachments/assets/d3ea4d2f-b3cf-491d-9a21-6018fce353f8" />
+
+If you are interested in how I turned this into the map check out my [Github Repo](https://github.com/JakasaurusRex/RoadTrippin) where I got into more detail about how I went from the sketch to the final map that I used!
+
 
 
 # November 25th 2024, Road Trippin' - Final Project Proposal 🚘🗺️🏕️
