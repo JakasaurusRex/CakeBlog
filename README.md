@@ -6,8 +6,25 @@
 - [Falling into the Void](#october-3rd-2024-falling-into-the-void-%EF%B8%8F)
 
 # December 11th 2024, Road Trippin' 🚘🗺️🏕️
+The last two weeks I have been crafting my final project for Creative Embedded Systems! Originally, I wanted to create a Manga/EReading device using an e-ink display with capacitive touch input. After thinking about this, this was way out of scope of the project for this class, but a cool idea. My next idea was to create a interactive poster like I had mentioned in my related works section! I was inspired by Irene Posch's interactive book, and I wanted to make a accessory for my room that could also be interacted with and light up. This led me to come up with the idea for Road Trippin'!
+
+## Charting the trip 🗺️
+Over the last couple of years, my friend Dylan and I have been going on road trips around the country to explore and hang out with each other, since we don't get to see each other much since we graduated high school. Our first Road Trip took us from Miami, Florida -> Nashville, Tennessee -> Chicago, Illinois -> Denver, Colorado (where we went to high school together) -> Yellowstone, Wyoming -> Seattle, Washington (where I was interning at Microsoft for the summer)! This road trip was a blast and we got to camp a couple times during it as well. We decided to do another Road Trip this year up the east coast states from Miami, Florida -> Charlotte, North Carolina -> New River Gorge, West Virginia (one of the most beauitful places I have ever been) -> Washington D.C. -> Phillidelphia, Pennsylvania -> New York City -> Boston, Massachusettes. This trip was also a blast and I wanted to commemerate these times and showcase them on my wall! Here's some pictures from the road trips for those interested!
+
+<img width="416" alt="Screenshot 2024-12-12 at 10 57 25 AM" src="https://github.com/user-attachments/assets/9748bcf9-8fe4-4124-bdf5-355e5c6a0d17" />
+
+<img width="462" alt="Screenshot 2024-12-12 at 10 58 34 AM" src="https://github.com/user-attachments/assets/6cef1b44-cd66-43dd-aa04-3aa0e2f4fe20" />
+
+<img width="571" alt="Screenshot 2024-12-12 at 11 00 39 AM" src="https://github.com/user-attachments/assets/f8016844-232a-4d5e-b74d-48c8d880ae5c" />
+
+<img width="418" alt="Screenshot 2024-12-12 at 11 02 59 AM" src="https://github.com/user-attachments/assets/62ce5c6f-6992-4a5c-b806-60142e1cc01f" />
 
 
+Originally, my plan was to create a map of the country and be able to place pegs into a state to light it up. Then you would be able to connect the pegs using yarn to showcase your travels! Original feedback I got about this idea was that it was too large scope still. To alieve this issue, I reduced the amount of states to just the east coast states, which was still quite large scope but hopefully doable in the amount of time we had. Like Irene, I wanted to use conductive crafting materials to make the poster seemelessly interactive. I planned to use conductive tape and magnetic pins that would activate reed sensors to complete the circuit. It was suggested that this was also too complicated and I should look into using the touch capacitive pins on the ESP32! I ended up doing this instead as well! Originally, I wanted to have a button that would keep track of the states you activate to be able to replay it back. Unfortunately there was not enough pins on the board after I had setup the lights and capacitive touch capabilities to allow for another input device, so I had to abandon this idea.
+
+With these pieces of feedback the vision of my project was created! I would laser cut out states on a map of the east coast states and light them up when a user places a conductive pin into a hole on the map, this would then touch a capacitive touch sensor and light up the state.
+
+## Starting the Engine 🚙
 
 
 # November 25th 2024, Road Trippin' - Final Project Proposal 🚘🗺️🏕️
