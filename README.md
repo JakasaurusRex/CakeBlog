@@ -16,7 +16,7 @@ Here is some videos of how it came out in the end!
 
 ![395319267-2d4a3518-fba8-4c80-a636-13e1aa54d181](https://github.com/user-attachments/assets/515abd13-2ebf-4347-b6f0-98ef9b13c18e)
 
-
+![395319260-3d2d69f5-47d7-4537-8860-c269afb9a5b5-ezgif com-optimize](https://github.com/user-attachments/assets/e6b4ed3b-c2ca-4dd5-b20e-8cc850635b19)
 
 ## Charting the trip 🗺️
 Over the last couple of years, my friend Dylan and I have been going on road trips around the country to explore and hang out with each other, since we don't get to see each other much since we graduated high school. Our first Road Trip took us from Miami, Florida -> Nashville, Tennessee -> Chicago, Illinois -> Denver, Colorado (where we went to high school together) -> Yellowstone, Wyoming -> Seattle, Washington (where I was interning at Microsoft for the summer)! This road trip was a blast and we got to camp a couple times during it as well. We decided to do another Road Trip this year up the east coast states from Miami, Florida -> Charlotte, North Carolina -> New River Gorge, West Virginia (one of the most beauitful places I have ever been) -> Washington D.C. -> Phillidelphia, Pennsylvania -> New York City -> Boston, Massachusettes. This trip was also a blast and I wanted to commemerate these times and showcase them on my wall! Here's some pictures from the road trips for those interested!
