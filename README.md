@@ -10,13 +10,13 @@ The last two weeks I have been crafting my final project for Creative Embedded S
 
 Here is some videos of how it came out in the end!
 
-https://github.com/user-attachments/assets/56aa2f70-d2f7-4764-b206-1bba0e900c00
+![395319214-3114050b-bd0d-4b95-a6f5-8b75c1d5440b](https://github.com/user-attachments/assets/2a955c42-ec0c-4f29-b909-35839a9a151c)
 
-https://github.com/user-attachments/assets/3c49ca83-3195-4fd0-9835-08253edf2750
+![395319236-3c49ca83-3195-4fd0-9835-08253edf2750](https://github.com/user-attachments/assets/ae672c27-0349-44ba-bca9-bd41ce0ceb2f)
 
-https://github.com/user-attachments/assets/3d2d69f5-47d7-4537-8860-c269afb9a5b5
+![395319267-2d4a3518-fba8-4c80-a636-13e1aa54d181](https://github.com/user-attachments/assets/515abd13-2ebf-4347-b6f0-98ef9b13c18e)
 
-https://github.com/user-attachments/assets/2d4a3518-fba8-4c80-a636-13e1aa54d181
+
 
 ## Charting the trip 🗺️
 Over the last couple of years, my friend Dylan and I have been going on road trips around the country to explore and hang out with each other, since we don't get to see each other much since we graduated high school. Our first Road Trip took us from Miami, Florida -> Nashville, Tennessee -> Chicago, Illinois -> Denver, Colorado (where we went to high school together) -> Yellowstone, Wyoming -> Seattle, Washington (where I was interning at Microsoft for the summer)! This road trip was a blast and we got to camp a couple times during it as well. We decided to do another Road Trip this year up the east coast states from Miami, Florida -> Charlotte, North Carolina -> New River Gorge, West Virginia (one of the most beauitful places I have ever been) -> Washington D.C. -> Phillidelphia, Pennsylvania -> New York City -> Boston, Massachusettes. This trip was also a blast and I wanted to commemerate these times and showcase them on my wall! Here's some pictures from the road trips for those interested!
@@ -78,7 +78,7 @@ To finalize the poster, I tried using a lot of tape to try to get everything nea
 
 Additionally, how I had originally approached the code was just simply checking if a user had completed the circuit with the touch pins by touching the circuit with something conductive. However, I learned while finishing the assembly that the circuit would only complete when something electrical touched the circuit, such as human skin (since our body produce electricity). In order to get around this I reapproached my coding solution. Instead of just simply checking when the circuit was complete and lighting the light then, I would turn the light on when someone touched it and turn it off when you touched it again. I added some time between these checks so that if someone took a while to release there hand from the conductive pins it would be ok. Now to ignite the lights, you need to touch the tape with a conductive pin. When the connection is made, the light will turn on. Then when you grab the pin to remove it, the light would turn off. This behavior produced the video shown below.
 
-https://github.com/user-attachments/assets/207e19c5-e644-49a8-a398-9fb03c37526b
+![395319214-3114050b-bd0d-4b95-a6f5-8b75c1d5440b](https://github.com/user-attachments/assets/2a955c42-ec0c-4f29-b909-35839a9a151c)
 
 In the end, I was not able to get everything hooked up. It took me multiple hours to just get 1 state working and set up and there was not enough time to finish the rest of the states and keep everything nice and tidy in the back. There is a proof of concept here though, I was able to successfully light up a state with a signal gathered from touching the tape with a conductive pin, something that could be applied to the other states to get them all working! Additionally, the light from the LED is visible from the front of the map, especially in dark rooms where its super bright! 
 
