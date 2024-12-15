@@ -1,4 +1,7 @@
 **Jake Torres**
+
+This blog showcases the art pieces I created and explored during my Creative Embedded Systems class taught by Professor Tiffany Tseng in Fall 2024 at Columbia University. I had so much fun exploring interactive art and design and I hope to pursue this in the future!
+
 - [Road Trippin'](#december-11th-2024-road-trippin-%EF%B8%8F%EF%B8%8F)
 - [Emergency Situations with a Spaceteam](#november-19th-2024-emergency-situations-with-a-spaceteam-)
 - [Crafting Stories - Related Works Overview](#october-29th-2024-crafting-stories---related-works-overview-)
